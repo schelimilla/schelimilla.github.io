@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to right, rgb(200, 175, 253) , rgb(254, 186, 255));
+}
+
+h1 {
+    font-family: "Raleway";
+    font-size: 50px;
+    font-weight: 50;
+}
