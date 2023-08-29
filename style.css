@@ -3,7 +3,7 @@
 } */
 
 .intro{
-    min-height: 100vh;
+    min-height: 96vh;
     display: flex;
     /* top:20px; */
     align-items: center;
@@ -25,77 +25,7 @@
     display: inline-block;
     margin-right: 1px;
     font-size: 10rem;
-    /* animation: move-intro 0.3s ease infinite alternate; */
-    /* animation-name: move-up;
-    animation-duration:1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards; */
-    /* animation-direction: alternate; */
 }
-
-/* .intro span:nth-child(9) {
-    animation-delay: .1s;
-}
-.intro span:nth-child(10) {
-    animation-delay: .2s;
-}
-.intro span:nth-child(11) {
-    animation-delay: .3s;
-}
-.intro span:nth-child(12) {
-    animation-delay: .4s;
-}
-.intro span:nth-child(13) {
-    animation-delay: .5s;
-}
-.intro span:nth-child(14) {
-    animation-delay: .6s;
-}
-.intro span:nth-child(15) {
-    animation-delay: .7s;
-}
-.intro span:nth-child(16) {
-    animation-delay: .8s;
-}
-.intro span:nth-child(17) {
-    animation-delay: .9s;
-}
-.intro span:nth-child(18) {
-    animation-delay: .10s;
-}
-.intro span:nth-child(19) {
-    animation-delay: .11s;
-}
-.intro span:nth-child(20) {
-    animation-delay: .12s;
-}
-.intro span:nth-child(21) {
-    animation-delay: .13s;
-}
-.intro span:nth-child(22) {
-    animation-delay: .14s;
-}
-.intro span:nth-child(23) {
-    animation-delay: .15s;
-}
-.intro span:nth-child(24) {
-    animation-delay: .16s;
-}
-.intro span:nth-child(25) {
-    animation-delay: .17s;
-}
-.intro span:nth-child(26) {
-    animation-delay: .18s;
-}
-.intro span:nth-child(27) {
-    animation-delay: .19s;
-}
-.intro span:nth-child(28) {
-    animation-delay: .20s;
-}
-.intro span:nth-child(29) {
-    animation-delay: .21s;
-} */
 
 
 .intro span:nth-child(1) {
@@ -114,9 +44,6 @@
 
 
 @keyframes move-intro {
-    /* 0% { bottom: -0.2em; opacity: 1; }
-    50% { bottom: 0.2em; }
-    100% { bottom: 0; opacity: 1; } */
     100% {top: -20px;}
 }
 
@@ -127,12 +54,6 @@
     100% {top: -100px; right: -550px;}
 }
 
-/* @keyframes move-intro-2 {
-    0% {top: 0px; right: 0px; bottom: 0px;}
-    25% {top: 200px; right: 0px; bottom: 0px;}
-    75% {top: 200px; right: 550px; bottom: 0px;}
-    100% {top: 200px; right: 550px; bottom: -500px;}
-} */
 
 @keyframes move-intro-2 {
     0% {bottom: 0px; left: 0px;}
@@ -149,6 +70,18 @@
     75%  {background-color:rgb(245, 182, 255);}
     100% {background-color:rgb(255, 185, 255);}
     
+}
+
+.buttons {
+    display: inline-block;
+    width: 49.9%;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
 
 
