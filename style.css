@@ -3,9 +3,9 @@
 } */
 
 .intro{
-    min-height: 96vh;
-    display: flex;
-    /* top:20px; */
+    min-height: 90vh;
+    display: flexbox;
+    /* top:50px; */
     align-items: center;
     justify-content: space-around;
     position:relative;
@@ -24,11 +24,11 @@
     /* top: 20px; */
     display: inline-block;
     margin-right: 1px;
-    font-size: 10rem;
+    font-size: 5rem;
 }
 
 
-.intro span:nth-child(1) {
+/* .intro span:nth-child(1) {
     animation-name: move-intro-1;
     animation-duration:1s;
     animation-iteration-count: 1;
@@ -40,7 +40,7 @@
     animation-duration:1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
+} */
 
 
 @keyframes move-intro {
@@ -74,7 +74,7 @@
 
 .buttons {
     display: inline-block;
-    width: 40%;
+    width: 49.8%;
     border: none;
     background-color: #000000;
     color: white;

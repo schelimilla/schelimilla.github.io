@@ -13,25 +13,51 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
     <!-- My CSS -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="about_style.css">
 
-    <title>Srini Chelimilla!</title>
+    <title>About Srini</title>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a style="color: white;" class="nav-item nav-link" href="index.html">Home</a>
+          <a style="color: rgb(182, 181, 181);" class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+          <a style="color: white;" class="nav-item nav-link" href="projects.html">Projects</a>
+        </div>
+      </div>
+    </nav>
+
   </head>
 
   <body>
-    <h1>Work Experience</h1>
+    <div>
+    <div style="padding-top: 0.6%;"></div>
+    <h1 style="background-color: rgb(251, 201, 255);">Work Experience</h1>
 
     <div class="accordion" id="accordionExample">
         <div class="card">
           <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            <h3 class="card-title">Capital One</h3>
+            <h3 class="card-title"><b>Capital One</b></h3>
             <h5 class="card-text">Software Engineering Intern</h5>
             <p>June - August 2023</p>
+            <svg class="float-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <ul>
+                <li>TBD</li>
+                <li>TBD</li>
+                <li>TBD</li>         
+                <li>TBD</li>                  
+              </ul>
             </div>
           </div>
         </div>
@@ -40,13 +66,23 @@
     <div class="accordion" id="accordionExample">
         <div class="card">
           <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <h3 class="card-title">Optum, UnitedHealth Group</h3>
+            <h3 style="font-family: Fjalla;" class="card-title">Optum, UnitedHealth Group</h3>
             <h5 class="card-text">Software Engineering Intern</h5>
             <p>June - August 2022</p>
+            <svg class="float-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+              <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+            </svg>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <ul>
+                <li>Developed a web application using Node.js and Express.js to monitor and manage events triggered by an AI health device; improved customer effort score by 30 times.</li>
+                <li>Designed wireframes and developed UI components using React.js.</li>
+                <li>Integrated an internal API to send SMS notifications to users when the AI health device detects an event; used Axios to make requests to the API.</li>         
+                <li>Created an error handling module to validate if stream is registered as an Azure event hub.</li>                  
+                <li>Integrated front end with API and Mongo database; tested using Postman and http requests.</li>                  
+                <li>Followed CI/CD agile development and conducted frequent system integration tests.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -61,7 +97,12 @@
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <ul>
+                <li>Developed a dynamic query using SQL to analyze user growth from different user communities and created dynamic dashboards to provide actionable insights and data analytics for an iOS app.</li>
+                <li>Enhanced the back-end module to integrate the app with Slack using JavaScript – developed code to send real time custom alerts based on a post’s criticality using webhooks.</li>
+                <li>Conducted quality assurance testing based on defined test cases. </li>         
+                <li>Used agile methodology to develop code and participated in scrum ceremonies; collaborated using Miro, Confluence, Jira, and Slack.</li>                  
+              </ul>
             </div>
           </div>
         </div>
@@ -76,7 +117,12 @@
           </div>
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <ul>
+                <li>Tutor students on programming assignments</li>
+                <li>Review for midterms</li>
+                <li>Explain fundamental concepts</li>
+                <li>Tutored for 5 hours every week</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -91,10 +137,82 @@
           </div>
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <ul>
+                <li>Created course curriculum, course modules, and lab exercises.</li>
+                <li>Planned, led, and ran the course ‘Learn Python for Data Science’ for 8 different groups.</li>
+              </ul>
             </div>
           </div>
         </div>
+    </div>
+
+    </div>
+
+    <div>
+      <div style="padding-top: 0.6%;"></div>
+      <h1 style="background-color: rgb(251, 201, 255);">Leadership</h1>
+
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <h3 class="card-title">Girls Who Code UVA</h3>
+            <h5 class="card-text">President</h5>
+            <p>May 2023 - Present</p>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+            <div class="card-body">
+              <h6>President</h6>
+              <ul>
+                <li>TBD</li>
+                <li>TBD</li>
+                <li>TBD</li>         
+                <li>TBD</li>                  
+              </ul>
+
+              <h6>Hackathon Director</h6>
+              <ul>
+                <li>TBD</li>
+                <li>TBD</li>
+                <li>TBD</li>         
+                <li>TBD</li>                  
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingSeven" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          <h3 class="card-title">Women in Cybersecurity UVA</h3>
+          <h5 class="card-text">President</h5>
+          <p>May 2023 - Present</p>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+          <div class="card-body">
+            <h6>President</h6>
+            <p>May 2023 - Present</p>
+            <ul>
+              <li>TBD</li>
+              <li>TBD</li>
+              <li>TBD</li>         
+              <li>TBD</li>                  
+            </ul>
+
+            <h6>Technical Chair</h6>
+            <p>May 2021 - May 2022</p>
+            <ul>
+              <li>TBD</li>
+              <li>TBD</li>
+              <li>TBD</li>         
+              <li>TBD</li>                  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     </div>
 
 

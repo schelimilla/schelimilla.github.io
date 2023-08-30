@@ -1,0 +1,15 @@
+body {
+    font-family: "Raleway";
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
