@@ -3,7 +3,7 @@
 } */
 
 .intro{
-    min-height: 90vh;
+    min-height: 100vh;
     display: flexbox;
     /* top:50px; */
     align-items: center;
